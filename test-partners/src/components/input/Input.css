@@ -1,0 +1,27 @@
+.search-container {
+    padding: 50px 0;
+    border-radius: 10px;
+    color: #808080;
+    text-align: left;
+    position: relative;
+    max-width: 496px;
+  }
+  
+  .search-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 496px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    outline: none;
+  }
+
+  .Search-icon {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+  }

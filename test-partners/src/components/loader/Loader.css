@@ -1,0 +1,80 @@
+/* Loader.css */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .loader {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .dot {
+    width: 6px;
+    height: 6px;
+    background-color: rgba(93, 67, 255, 1);
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate 1.2s linear infinite;
+  }
+  
+  .dot:nth-child(1) {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot:nth-child(2) {
+    top: 14.64%;
+    left: 85.36%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(3) {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(4) {
+    top: 85.36%;
+    left: 85.36%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(5) {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(6) {
+    top: 85.36%;
+    left: 14.64%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(7) {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dot:nth-child(8) {
+    top: 14.64%;
+    left: 14.64%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translateX(-50%);
+    }
+    100% {
+      transform: rotate(360deg) translateX(-50%);
+    }
+  }
+  
